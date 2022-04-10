@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.icon{
+    
+    width:20px;
+    cursor: pointer;
+}
+.icons{
+    
+    width:20px;
+    cursor: pointer;
+}
+#main{
+    background-color: rgb(66, 97, 97);
+    display:flex;
+    justify-content: space-between;
+    width:200px;
+    color:white;
+    padding:10px;
+}
+#mains{
+    background-color: rgb(66, 97, 97);
+    display:flex;
+    justify-content: space-between;
+    width:200px;
+    color:white;
+    padding:10px;
+}
+.container{
+    background-color: rgb(66, 97, 97);
+    display:flex;
+    justify-content: space-between;
+    width:500px;
+    color:white;
+    padding:10px;
+}

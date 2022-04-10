@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#main{
+    padding:10px;
+    margin:10px;
+}
+#button{
+    padding:6px;
+    cursor: pointer;
+ 
+
+}
+.operator{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+input{
+    padding:15px;
+}

@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    /* width: 500px; */
+}
+h1{
+    padding: 20px;
+}
+#main{
+    color: rgb(50, 155, 111);
+    padding: 20px;
+
+}
+button a{
+    text-decoration: none;
+    color: rgb(12, 53, 235);
+    
+}
+p{
+    
+    color:rgb(3, 70, 34) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+#items ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+#items ul li{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+.heels img{
+    height: 300px;
+    width: 300px;
+}
+.heels p{
+    align-items: center;
+}
+button{
+    align-items: center;
+    background-color: cornflowerblue;
+    outline: none;
+}

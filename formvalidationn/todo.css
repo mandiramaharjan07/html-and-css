@@ -1,0 +1,25 @@
+#container{
+    background-color: rgb(12, 88, 88);
+    text-align: center;
+  
+    padding:30px;
+    height:100vh;
+}
+#add{
+background-color:rgb(108, 158, 156);
+color:aliceblue;
+padding:10px;
+}
+#field{
+    background-color:rgb(108, 158, 156);
+    padding:10px;
+}
+h1{
+    color:rgb(108, 158, 156);
+}
+#list{
+   border:1px solid black;
+   list-style: none;
+   padding:10px;
+   color:white;
+}

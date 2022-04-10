@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+}
+.container{
+
+    background-color: rgb(236, 179, 104);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+   border-radius: 6px;
+   width: 400px;
+   height: 500px;
+   box-shadow: 0 2px 10px;
+   margin:20px;
+}
+.form-control{
+    padding:10px;
+}
+input{
+    font-size:15px;
+    padding:10px;
+    border-radius:5px;
+    outline: none;
+    border: none;
+}
+.result{
+    font-size: 20px;
+    border-radius: 6px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 2px 10px;
+    margin:20px;
+}

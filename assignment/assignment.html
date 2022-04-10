@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form">
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter your name" autocomplete="off">
+            </div><br>
+<p id="name_op"></p>
+            <div class="form-control">
+                <label name="gender" id="gender">Gender</label><br>
+                <input type="radio" name="gender" value="female"><label for="female">Female</label>
+                <input type="radio" name="gender" value="male"><label for="male">Male</label>
+                <input type="radio" name="gender" value="others"><label for="others">Others</label>
+            </div><br>
+            <p id="gender_op"></p>
+
+            <div class="form-control">
+                <label for="education">Education Level</label><br>
+                <input type="checkbox" value="SEE"><label for="SEE">SEE</label><br>
+                <input type="checkbox" value="+2"><label for="SEE">+2</label><br>
+                <input type="checkbox" value="Bachlore"><label for="SEE">Bacholer</label><br>
+                <input type="checkbox" value="Master"><label for="SEE">Masters</label><br>
+                <input type="checkbox" value="Degree"><label for="SEE">Degree</label><br>
+                <input type="checkbox" value="Phd"><label for="SEE">PhD</label><br>
+            </div><br>
+<p id="education_op"></p>
+            <label for="cars">Choose a faculty:</label>
+            <select id="cars" name="carlist" form="carform">
+                <option value="bca">BCA</option>
+                <option value="bbs">BBS</option>
+                <option value="bbm">BBM</option>
+                <option value="bba">BBA</option>
+            </select>
+        </form>
+        <!-- <div class="result">
+            <h2>Result</h2>
+        </div> -->
+    </div>
+  
+    <script src="assignment.js"></script>
+
+</body>
+
+</html>

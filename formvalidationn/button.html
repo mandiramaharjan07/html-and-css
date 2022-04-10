@@ -1,0 +1,34 @@
+<?php
+if(isset($POST['submit'])){
+    echo "Yes it works";
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    
+    <div id="main">
+
+      
+    <p> For all special character </p>
+   
+        <form action="button.php" class="forms1" method="post" >
+            <label for="usernames1"> Username</label><br>
+            <input type="text" class="name" name="usernames1"><br>
+
+            <input type="submit" class="button" name="submit">
+            <p class="feedbacks1">
+
+            </p>                                                  
+        </form>
+    </div>
+    <script src="button.js"></script>
+</body>
+</html>
